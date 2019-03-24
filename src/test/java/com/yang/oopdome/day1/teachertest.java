@@ -2,8 +2,6 @@ package com.yang.oopdome.day1;
 
 public class teachertest {
     public static void main(String[] args) {
-
-
         teacher a = new teacher();
         a.name = "井桂印";
         a.zhuanye="软件开发";

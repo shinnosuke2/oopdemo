@@ -6,11 +6,13 @@ public class PasswdTest {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         Passwd a=new Passwd();
+        a.name="admin";
+        a.key="111111";
         System.out.println("请输入用户名：");
-        a.name=input.next();
+        String name=input.next();
         System.out.println("请输入密码：");
-        a.key=input.next();
+        String key=input.next();
+        a.pwd=key;
         a.changePasswd();
-
     }
 }
