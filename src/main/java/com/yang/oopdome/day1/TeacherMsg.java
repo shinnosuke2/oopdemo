@@ -14,7 +14,6 @@ public class TeacherMsg {
     public void searchName(int start,int end,String name){
         boolean flag=false;
         for (int i=start-1;i<end;i++){
-
             if (teachers[i].equals(name)){
                 flag=true;
             }
