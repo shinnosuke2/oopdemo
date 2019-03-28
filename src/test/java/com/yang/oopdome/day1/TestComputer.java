@@ -7,7 +7,7 @@ public class TestComputer {
         Scanner input=new Scanner(System.in);
         System.out.println("请输入个数：");
         double num=input.nextDouble();
-        System.out.println("");
+        System.out.println("请再输入个数：");
         double num2=input.nextDouble();
         Computer a=new Computer();
         System.out.println(a.add(num,num2));
