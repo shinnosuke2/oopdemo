@@ -9,6 +9,6 @@ public class DiGui {
         } else {
             return diGui(n - 1) + diGui(n - 2);
         }
-        return 0;
+        return n;
     }
 }

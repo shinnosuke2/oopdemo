@@ -26,6 +26,7 @@ public class Park {
             System.out.println("是否继续订票（y/n）?");
             answer=input.next();
         }while(answer.equals("y"));
+        System.out.println("谢谢惠顾！");
 
     }
 

@@ -4,11 +4,13 @@ import java.util.Scanner;
 
 public class TestDiGui {
     public static void main(String[] args) {
-        Scanner input=new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("输入月份：");
-        int b=input.nextInt();
-        DiGui a=new DiGui();
+        int b = input.nextInt();
+        DiGui a = new DiGui();
         System.out.println(a.diGui(b));
-
+        /*for (int i = 1; i <= b; i++) {
+            System.out.print(a.diGui(i)+"\t");
+        }*/
     }
 }
