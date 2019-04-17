@@ -11,7 +11,6 @@ public class TestPet {
 
 
     public static void main(String[] args) {
-        int n = 0;
         Scanner input = new Scanner(System.in);
         Pet dog = new Dog("多多", 3, 50, "吉娃娃");
         Pet cat = new Cat("点点", 4, 33, "橘黄");

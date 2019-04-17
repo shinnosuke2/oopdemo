@@ -40,7 +40,7 @@ public abstract class Pet {
     }
     public abstract void cure();
     public void show(){
-        System.out.println("我叫："+name+"\n年龄："+"\n健康值："+health);
+        System.out.println("我叫："+name+"\n年龄："+age+"\n健康值："+health);
     }
 
     public void eat() {

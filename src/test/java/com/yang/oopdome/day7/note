@@ -15,13 +15,13 @@ public  任何地方都可以访问
 使用继承减少代码量
 提高了代码的维护性
 使用单词extends
-java中的继承是单继承，一个类只有一个父类
+java中的继承是单继承，一个类只有一个直接父类
 　继承是类与类的一种关系，是一种“is a”的关系
 四、如何实现继承？
 语法规则，只要在子类加上extends关键字继承相应的父类就可以了：
 super 只能在构造方法中调用
 super（）必须放在第一位
-构造方法中不能有this和super
+静态方法中不能有this和super
 
 　　class 子类 extends 父类
 eg：class Dog extends Pet{
@@ -33,6 +33,7 @@ eg：class Dog extends Pet{
     a、返回值类型
     b、方法名
     c、参数类型及个数
+    d、不能严于父类
 都要与父类继承的方法相同，才叫方法的重写。
 
 重载和重写的区别：

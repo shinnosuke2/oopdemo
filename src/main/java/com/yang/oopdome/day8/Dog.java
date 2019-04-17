@@ -33,12 +33,17 @@ public class Dog extends Pet{
         System.out.println("我是一只："+strain);
     }
     public void eat(){//喂食
-        if (this.getHealth()==100){
+        if (this.getHealth()>=100){
+            this.setHealth(100);
             System.out.println("狗狗"+this.getName()+"吃饱了，不需要喂食！");
         }
         else {
             System.out.println("吃根骨头！");
+
             this.setHealth(this.getHealth()+3);
+            if (this.getHealth()>=100){
+                this.setHealth(100);
+            }
 
         }
 
